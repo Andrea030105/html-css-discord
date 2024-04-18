@@ -28,6 +28,12 @@ h3 {
 
 .btn:hover {
     box-shadow: 0px 6px 18px 0px #0000005e;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .padding-vertical-100 {
@@ -242,31 +248,41 @@ span {
     line-height: 1.5;
 }
 
+/* Divisore */
+
+.div-hr {
+    height: 3px;
+    background-color: black;
+}
+
+hr {
+    border-top: 3px solid #475ea7;
+}
+
 /* Footer */
 
 footer {
     height: 100px;
     background-color: black;
-    margin-top: 5px;
     display: flex;
     align-items: center;
 }
 
-.row-footer {
-    background-color: lightskyblue;
-    display: flex;
+.flex-space-beetween {
     justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    border: dashed 2px black;
 }
 
 .col-sm-footer {
-    height: 30px;
-    background-color: pink;
-    border: dashed 2px black;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100px;
+}
+
+.btn-purple-footer {
+    background-color: #8EA1E1;
+    border: 1px #8EA1E1 solid;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
 }
