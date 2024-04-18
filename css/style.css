@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Mulish;
 }
 
 /*Utility*/
@@ -23,8 +24,10 @@
 /* header */
 
 header {
-    height: 85px;
-    background-color: aquamarine;
+    height: 55px;
+    background-color: #2e60e4;
+    display: flex;
+    align-items: center;
 }
 
 .container header {
@@ -33,26 +36,20 @@ header {
 }
 
 .col-sm-header {
-    height: 30px;
     width: 20%;
-    border: dashed 2px black;
-    background-color: orange;
     display: flex;
     align-items: center;
+}
+
+.display-flexend {
+    justify-content: flex-end;
 }
 
 .col-lg-header {
     width: 60%;
-    height: 30px;
-    border: dashed 2px black;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: orange;
-}
-
-.col-sm-header p {
-    margin: 77%;
 }
 
 ul {
@@ -62,7 +59,17 @@ ul {
 }
 
 li {
-    padding: 5px;
+    padding: 0 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-login {
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 5px 20px;
 }
 
 /* main */
