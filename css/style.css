@@ -83,13 +83,13 @@ header {
     justify-content: center;
 }
 
-ul {
+.ul-header {
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-li {
+.li-header {
     padding: 0 20px;
     color: white;
 }
@@ -195,16 +195,51 @@ li {
 
 .col-lg-s6 {
     width: 60%;
-    height: 400px;
-    background-color: #e657ff;
-    border: dashed 2px black;
+}
+
+.col-lg-s6 h2 {
+    color: #475ea7;
+    margin-top: 0;
+}
+
+.col-lg-s6 p {
+    color: white;
+}
+
+.ita-sec6 {
+    margin: 20px 0;
+}
+
+.ita-sec6 img,
+span {
+    margin: 0 3px;
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.icons-sec6 img {
+    width: 12%;
 }
 
 .col-sm-s6 {
     width: 40%;
-    height: 400px;
-    background-color: lightblue;
-    border: dashed 2px black;
+}
+
+.col-sm-s6 h3 {
+    color: #475ea7;
+    margin-top: 0;
+}
+
+.col-sm-s6 ul {
+    list-style: none;
+}
+
+.col-sm-s6 li {
+    padding: 0;
+    color: white;
+    font-size: 25px;
+    line-height: 1.5;
 }
 
 /* Footer */
