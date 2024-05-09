@@ -109,10 +109,10 @@ header {
 
 /* Section 1 */
 
-.background {
+.jumbotron {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container-s1 {
@@ -163,6 +163,17 @@ header {
     margin-bottom: 20px;
 }
 
+.wave {
+    height: 90px;
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    opacity: 0.17;
+}
+
+.wave-down {
+    transform: rotateX(0.5turn);
+}
+
 /* Section 3 */
 
 .background-grey {
@@ -180,9 +191,17 @@ header {
     font-size: 20px;
 }
 
-.col-lg-s5 div {
+.display-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.stars {
+    height: 60px;
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .btn-purple {
